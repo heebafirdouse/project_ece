@@ -1,0 +1,46 @@
+/* .food-display{
+    margin-top: 30px;
+}
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+} */
+.food-display {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffede1;
+  
+  .service-buttons {
+    display: flex;
+  
+    flex-direction: horizontal;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+
+  }
+  
+  .service-button {
+    width: 250px;
+    height: 80px;
+    background-color:#E07A5F; /* Green background */
+    color:white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .service-button:hover {
+    background-color: #E07A5F /* Slightly darker on hover */
+  }
+  
